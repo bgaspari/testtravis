@@ -1,7 +1,7 @@
 language: node_js
 deploy: 
   provider: script
-  script: yarn start
+  script: npm start
   skip_cleanup: true
   on:
     branch: test
