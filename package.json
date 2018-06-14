@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "start && exit 0",
+    "start": "echo start && exit 0",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
