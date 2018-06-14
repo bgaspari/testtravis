@@ -1,8 +1,9 @@
 language: node_js
 deploy: 
+  provider: script
+  script: yarn start
   on:
     branch: test
-    script: yarn start
 cache:
   directories: 
     - jest/tmp
