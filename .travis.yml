@@ -1,4 +1,9 @@
 language: node_js
+deploy: 
+  provider: script
+  script: npm start
+  on:
+    branch: master
 cache:
   directories: 
     - jest/tmp
