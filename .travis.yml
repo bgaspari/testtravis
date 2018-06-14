@@ -1,10 +1,9 @@
 language: node_js
 deploy: 
   provider: script
-  script: yarn start
-  skip_cleanup: true
+  script: npm start
   on:
-    branch: test
+    branch: master
 cache:
   directories: 
     - jest/tmp
