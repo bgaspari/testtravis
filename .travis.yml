@@ -1,7 +1,7 @@
 language: node_js
 deploy: 
   provider: script
-  script: now --token $TOKEN --public
+  script: npm start
   skip_cleanup: true
   on:
     branch: test
